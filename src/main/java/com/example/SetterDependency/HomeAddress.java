@@ -6,6 +6,7 @@ public class HomeAddress implements Address{
     public void setCity(String city){
         this.city=city;
     }
+
     public void display(){
         System.out.println("City :"+city);
     }
