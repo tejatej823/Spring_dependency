@@ -1,4 +1,4 @@
-package com.example.SetterDependency;
+package com.example.SetterDependency_xmlconfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

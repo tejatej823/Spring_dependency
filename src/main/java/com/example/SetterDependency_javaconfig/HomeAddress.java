@@ -1,5 +1,4 @@
-package com.example.SetterDependency;
-
+package com.example.SetterDependency_javaconfig;
 
 public class HomeAddress implements Address{
     private String city;
@@ -7,8 +6,8 @@ public class HomeAddress implements Address{
         this.city=city;
     }
 
-    public void display(){
-        System.out.println("City :"+city);
+    @Override
+    public void display() {
+        System.out.println("City: "+city);
     }
-    }
-
+}

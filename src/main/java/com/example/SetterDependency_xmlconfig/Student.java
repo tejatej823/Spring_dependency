@@ -1,4 +1,4 @@
-package com.example.SetterDependency;
+package com.example.SetterDependency_xmlconfig;
 
 public class Student {
     private Address address;

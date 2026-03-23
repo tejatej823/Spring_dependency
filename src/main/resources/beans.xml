@@ -4,10 +4,10 @@
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="homeAddress" class="com.example.SetterDependency.HomeAddress">
+    <bean id="homeAddress" class="com.example.SetterDependency_xmlconfig.HomeAddress">
         <property name="city" value="Hyderabad"/>
     </bean>
-    <bean id="student" class="com.example.SetterDependency.Student">
+    <bean id="student" class="com.example.SetterDependency_xmlconfig.Student">
         <property name="address" ref="homeAddress"/>
     </bean>
 </beans>
