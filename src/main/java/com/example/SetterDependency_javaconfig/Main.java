@@ -10,6 +10,5 @@ public class Main {
 
         Student s = context.getBean(Student.class);
         s.show();
-
     }
 }
