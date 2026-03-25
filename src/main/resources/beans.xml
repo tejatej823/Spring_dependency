@@ -4,6 +4,15 @@
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="credit card" class="com.example.ConstructorDependency_xmlconfig.CreditCard">
+        <constructor-arg name="payment_name" value="Credit card"/>
+    </bean>
+    <bean id="debit card" class="com.example.ConstructorDependency_xmlconfig.CreditCard">
+        <constructor-arg name="payment_name" value="Debit card"/>
+    </bean>
+    <bean id="shoppingitem" class="com.example.ConstructorDependency_xmlconfig.Shopping_item">
+        <constructor-arg name="payment"  ref="debit card"/>
+    </bean>
     <bean id="homeAddress" class="com.example.SetterDependency_xmlconfig.HomeAddress">
         <property name="city" value="Hyderabad"/>
     </bean>
