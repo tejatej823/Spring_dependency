@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 public class HomeAddress implements Address{
-    @Value("Siva nagar")
+    @Value("Siva-nagar")
     String city;
     public void show_address(){
         System.out.println("City "+city);
