@@ -19,4 +19,6 @@
     <bean id="student" class="com.example.SetterDependency_xmlconfig.Student">
         <property name="address" ref="homeAddress"/>
     </bean>
+    <bean id="hw" class="com.example.BeanLifeCycle_XML.HelloWorld" init-method="init" destroy-method="destroy"/>
+    <bean id="hw2" class="com.example.BeanLifeCycle_programatic_approach.HelloWorld"/>
 </beans>
