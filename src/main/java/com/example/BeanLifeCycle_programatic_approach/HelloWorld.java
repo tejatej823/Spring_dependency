@@ -10,6 +10,7 @@ public class HelloWorld implements DisposableBean,InitializingBean{
     public void destroy() throws Exception{
         System.out.println("destroy method() called");
     }
+
 }
 
 
